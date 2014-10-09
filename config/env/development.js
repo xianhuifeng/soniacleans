@@ -6,7 +6,7 @@ module.exports = {
 		title: 'MEAN.JS - Development Environment'
 	},
 	facebook: {
-		clientID: process.env.FACEBOOK_ID || 'APP_ID',
+		clientID: process.env.FACEBOOK_ID || '879583995386142',
 		clientSecret: process.env.FACEBOOK_SECRET || 'APP_SECRET',
 		callbackURL: 'http://localhost:3000/auth/facebook/callback'
 	},

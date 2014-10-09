@@ -30,7 +30,9 @@ exports.create = function(req, res) {
  * Show the current article
  */
 exports.read = function(req, res) {
+	//console.log('req', req.article);---->{ _id: 5435defca883570000032234,user: { _id: 5434fa818147a9696f86b789, displayName: 'Xianhui Feng' },__v: 0,content: 'Heeeeeelofdasf',title: 'fourupdatre',created: Wed Oct 08 2014 18:03:56 GMT-0700 (PDT) }
 	res.jsonp(req.article);
+	// console.log('res',res.jsonp(req.article));
 };
 
 /**
