@@ -2,6 +2,7 @@
 /**
  * Module dependencies.
  */
+ //We are requiring the three modules
 var init = require('./config/init')(),
 	config = require('./config/config'),
 	mongoose = require('mongoose');
